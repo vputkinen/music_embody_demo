@@ -3,7 +3,7 @@
 
 % Original code by Enrico Glerean and Lauri Nummenmaa
 % Modified by Vesa Putkinen for running the demo on the example data 
-% from Putkinen et al. 2023
+% from Putkinen et al. 2023.
 
 clear all
 close all

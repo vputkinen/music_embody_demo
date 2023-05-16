@@ -4,7 +4,7 @@
 %
 % The data were obtained in an experiment where subjects listened to sad and happy 
 % music and indicated the body regions whose activity they felt changing 
-% while listening  
+% while listening (Putkinen et al. 2023).  
 
 % Code by Vesa Putkinen
 
@@ -36,7 +36,7 @@ for i_id = 1:length(ids)
         map = (img(:,:,1) == 255) & (img(:,:,2) == 0) & (img(:,:,3) == 0);
         map = double(map);
         
-        % Resample image
+        % resample image
         source_dim = size(map);
         [X,Y] = meshgrid(linspace(1,source_dim(2),target_dim(2)), ...
             linspace(1,source_dim(1),target_dim(1)));
